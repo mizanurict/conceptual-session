@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url('../images/cow.jpg');
+    background-size: cover; 
+    background-position: bottom center;
+    height: 100vh;
+}
+.hero h1 {
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900px;
+    text-transform: uppercase;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 30px;
+    letter-spacing: 15px;
+}
+.article{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    text-align: justify;
+    background-color: cadetblue;
+    padding: 60px;
+    /* border-width: 15px;
+    border-color: yellow;
+    border-style: groove; */
+    border: 15px groove yellow;
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.article p{
+    font-size: 28px;
+}
+.article p .imp{
+    font-size: 2em; /* parent font size */ 
+}
